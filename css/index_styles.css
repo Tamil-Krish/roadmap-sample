@@ -1,0 +1,57 @@
+body {
+    /* background-image: linear-gradient(rgb(67, 46, 255), rgb(0, 0, 0)); */
+    background-image: url(../image/f3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 3%;
+}
+
+.bor {
+    border-bottom: 1px solid rgba(25, 0, 255, 0.3);
+}
+
+.main {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 6px rgba(25, 0, 255, 0.7);
+}
+
+.text_field {
+    position: relative;
+}
+
+.text_field input {
+    width: 100%;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    color: rgb(25, 0, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 25px;
+}
+
+li::before {
+    content: '\279C';
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 15px;
+    color: rgb(25, 0, 255);
+}
